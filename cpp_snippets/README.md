@@ -24,7 +24,7 @@ To get a copy of this project up and running on your local machine, follow these
 
 ### Prerequisites
 
-You will need a C++ compiler installed on your system to compile and run these programs. Please refer to the detailed guide provided in this repository for specific instructions based on your operating system (Windows, macOS, Linux, Termux): [`Installing-C++-on-your-system.md`](Installing-C++-on-your-system.md)
+You will need a C++ compiler installed on your system to compile and run these programs. Please refer to the detailed guide provided in this repository for specific instructions based on your operating system (Windows, macOS, Linux, Termux): [`Installing-C++-on-your-system.md`](https://github.com/Spectra010s/Capstone/blob/main/cpp_snippets%2FInstalling-C%2B%2B-on-your-system.md)
 
 ### Clone the Repository
 

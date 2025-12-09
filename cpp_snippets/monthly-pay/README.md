@@ -20,7 +20,7 @@ Follow these steps to get a local copy of the project up and running on your mac
 
 You need a C++ compiler (like **g++** or **Clang**) installed on your system.
 
-Check on how to install them [here](../Installing-C++-on-your-system)
+Check on how to install them [here](https://github.com/Spectra010s/Capstone/blob/main/cpp_snippets%2FInstalling-C%2B%2B-on-your-system.md)
 
 ---
 
