@@ -115,3 +115,71 @@ void setMotor(int in1, int in2, int ena, int dir1, int dir2, int speed) {
   digitalWrite(in2, dir2);
   analogWrite(ena, speed);
 }
+
+// --- MISSING MOVEMENT FUNCTION DEFINITIONS ---
+
+// Function to stop motors and apply a brake
+void stopMotors() {
+  // Sets all direction inputs to LOW to activate brake
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+  // Ensure speed is zero
+  analogWrite(ENA, 0); 
+  analogWrite(ENB, 0);
+}
+
+// Function for straight movement
+void moveForward(int speed) {
+  // Motor 1 (Left) - Forward
+  setMotor(IN1, IN2, ENA, HIGH, LOW, speed); 
+  // Motor 2 (Right) - Forward
+  setMotor(IN3, IN4, ENB, HIGH, LOW, speed);
+}
+
+// Function for straight backward movement
+void moveBackward(int speed) {
+  // Motor 1 (Left) - Backward
+  setMotor(IN1, IN2, ENA, LOW, HIGH, speed);
+  // Motor 2 (Right) - Backward
+  setMotor(IN3, IN4, ENB, LOW, HIGH, speed);
+}
+
+// Function for turning Left (Left motor stops, Right motor moves forward)
+void turnLeft(int speed) {
+  // Motor 1 (Left) - Stop (or brake)
+  analogWrite(ENA, 0); 
+  digitalWrite(IN1, LOW); 
+  digitalWrite(IN2, LOW); 
+  
+  // Motor 2 (Right) - Forward
+  setMotor(IN3, IN4, ENB, HIGH, LOW, speed);
+}
+
+// Function for turning Right (Right motor stops, Left motor moves forward)
+void turnRight(int speed) {
+  // Motor 1 (Left) - Forward
+  setMotor(IN1, IN2, ENA, HIGH, LOW, speed);
+
+  // Motor 2 (Right) - Stop (or brake)
+  analogWrite(ENB, 0);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}
+
+// Function for pivoting Left (Left motor backward, Right motor forward) // Spin in place
+void pivotLeft(int speed) {
+  // Motor 1 (Left) - Backward
+  setMotor(IN1, IN2, ENA, LOW, HIGH, speed); 
+  // Motor 2 (Right) - Forward
+  setMotor(IN3, IN4, ENB, HIGH, LOW, speed);
+}
+
+// Function for pivoting Right (Left motor forward, Right motor backward) // Spin in place
+void pivotRight(int speed) {
+  // Motor 1 (Left) - Forward
+  setMotor(IN1, IN2, ENA, HIGH, LOW, speed);
+  // Motor 2 (Right) - Backward
+  setMotor(IN3, IN4, ENB, LOW, HIGH, speed);
+}
