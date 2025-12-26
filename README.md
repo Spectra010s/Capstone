@@ -2,41 +2,31 @@
 
 ## Introduction
 
-Welcome to my Capstone repository  
+Welcome to The Capstone repository  
 This repo serves as a collection of my hardware and robotics projects — both **Tinkercad simulations** and **real-life builds**.  
 Each project is organized in its own folder with documentation, circuit diagrams, and code.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Projects](#projects)
 - [Project Index](#project-index)
-- [Tech Stack/skills](#tech-stack--skills)
-  - [Microcontrollers/Embedded Systems](#microcontrollers--embedded-systems)
+- [Tech Stack/skills](#tech-stack-skills)
+  - [Microcontrollers/Embedded Systems](#microcontrollers-embedded-systems)
   - [Programming](#programming)
-  - [Tools/development](#tools--development)
+  - [Tools/development](#tools-development)
 - [Vision](#vision)
-
 - [Contact](#contact)
-
-## Projects
-
-- [RF Controlled Car](./RF-Robotic-Car/)
-
-- [Tinkercad Circuits](./Tinkercad/)
-
-- [Future Projects](./future-projects/)
 
 ## Project Index
 
-- **[RF Remote-Controlled Car](./RF-Robotic-Car/)**  
-  This project is a simple remote-controlled car built using Arduino, RF modules, Joystick module, and L298N motor driver.
+- [**RF Remote-Controlled Car**](./RF-Robotic-Car/)
+ This project is a simple remote-controlled car built using Arduino, RF modules, Joystick module, and L298N motor driver.
 
-- **[Tinkercad Simulations](./tinkercad/)**  
+- [**C++ Snippets**](https://github.com/Spectra010s/Capstone/blob/main/cpp_snippets)
+  This project is a practical toolkit for C++ developers that contains a collection of fundamental utility programs with comprehensive guides
+
+- [**Tinkercad Simulations**](./tinkercad/)
   Digital prototypes built using Tinkercad for testing and learning electronics concepts.
-
-- **[Future Projects](./future-projects/)**  
-  Placeholder for upcoming real-life robotics and electronics builds.
 
 ## Tech Stack / Skills
 
@@ -52,7 +42,8 @@ Each project is organized in its own folder with documentation, circuit diagrams
 
 ### Programming
 
-- Arduino C/C++
+- Arduino C++
+- C++
 
 ### Tools / Development
 
