@@ -1,14 +1,13 @@
 # Capstone - Monthly Pay Calculator Snippet
 
 ## Overview
- 
+
 This C++ program calculates a worker’s **monthly pay** based on:
 
 - the **daily rate**, and
 - the **number of days worked** in the month.
 
 It’s a simple introduction to variables, input/output, multiplication, and displaying results in C++. A simple yet effective tool for basic payroll calculations.
-
 
 ---
 
@@ -89,9 +88,8 @@ After successful compilation, run the executable directly from your terminal.
 
 2.  **Follow the Prompts**:
     The program will prompt you to enter the daily pay rate and the number of days worked.
-
-    *   **Enter daily pay**: Input a numerical value for the daily pay rate (e.g., `100.50`).
-    *   **Enter number of days worked**: Input an integer for the number of days (e.g., `22`).
+    - **Enter daily pay**: Input a numerical value for the daily pay rate (e.g., `100.50`).
+    - **Enter number of days worked**: Input an integer for the number of days (e.g., `22`).
 
 3.  **View Results**:
     Once both inputs are provided, the program will display the calculated monthly pay.
@@ -103,6 +101,14 @@ After successful compilation, run the executable directly from your terminal.
     --- Results ---
     Monthly pay is: # 2211
     ```
+
+### Results with `clang++`
+
+[![clang++ Monthly_pay](https://github.com/Spectra010s/Capstone/blob/main/cpp_snippets/images/montly_pay_clang++.jpg)]
+
+### Results with `g++`
+
+[![g++ Monthly_pay](https://github.com/Spectra010s/Capstone/blob/main/cpp_snippets/images/montly_pay_g++.jpg)
 
 ---
 

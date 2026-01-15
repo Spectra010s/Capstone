@@ -1,22 +1,22 @@
 # Capstone - C++ Utilities & Setup Guide
 
 ## Overview
+
 This repository serves as a practical toolkit for C++ developers, providing a collection of fundamental utility programs alongside an essential, comprehensive guide for setting up your C++ development environment across various operating systems. Whether you're a beginner looking to compile your first C++ code or an experienced developer seeking quick utility snippets, this project offers clear, actionable resources to streamline your workflow.
 
 ## Table of Contents
 
-*   [Getting Started](#getting-started)
-    *   [Prerequisites](#prerequisites)
-    *   [Clone the Repository](#clone-the-repository)
-*   [Features](#features)
-*   [Usage](#usage)
-    *   [Monthly Pay Calculator](#monthly-pay-calculator)
-    *   [Student Mark Percentage Calculator](#student-mark-percentage-calculator)
-    *   [Cuboid Volume Calculator](#cuboid-volume-calculator)
-*   [Technologies Used](#technologies-used)
-*   [Contributing](#contributing)
-*   [Author](#author)
-
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Clone the Repository](#clone-the-repository)
+- [Features](#features)
+- [Usage](#usage)
+  - [Monthly Pay Calculator](#monthly-pay-calculator)
+  - [Student Mark Percentage Calculator](#student-mark-percentage-calculator)
+  - [Cuboid Volume Calculator](#cuboid-volume-calculator)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [Author](#author)
 
 ## Getting Started
 
@@ -37,10 +37,10 @@ cd Capstone
 
 ## Features
 
-*   **Comprehensive C++ Setup Guide**: Detailed, *OS-specific instructions* for installing and configuring C++ compilers, covering environments like Windows (MinGW, Visual Studio), macOS (clang), Linux (g++ via apt/dnf/pacman), and Termux (clang).
-*   **Monthly Pay Calculator**: A straightforward command-line utility to compute monthly earnings efficiently based on daily rates and the number of workdays.
-*   **Student Mark Percentage Calculator**: An interactive program that allows input of student details and subject marks, subsequently calculating and displaying the overall percentage score.
-*   **Cuboid Volume Calculator**: A simple application dedicated to calculating and outputting the volume of a fixed-dimension cuboid.
+- **Comprehensive C++ Setup Guide**: Detailed, _OS-specific instructions_ for installing and configuring C++ compilers, covering environments like Windows (MinGW, Visual Studio), macOS (clang), Linux (g++ via apt/dnf/pacman), and Termux (clang).
+- **Monthly Pay Calculator**: A straightforward command-line utility to compute monthly earnings efficiently based on daily rates and the number of workdays.
+- **Student Mark Percentage Calculator**: An interactive program that allows input of student details and subject marks, subsequently calculating and displaying the overall percentage score.
+- **Cuboid Volume Calculator**: A simple application dedicated to calculating and outputting the volume of a fixed-dimension cuboid.
 
 ## Usage
 
@@ -68,7 +68,7 @@ g++ monthly-pay/monthly_pay.cpp -o monthly_pay
 
 **Example Interaction:**
 
-```    
+```
 --- Monthly Pay Calculator ---
     Enter daily pay: 100.50
     Enter number of days worked: 22
@@ -144,12 +144,14 @@ Volume of the cuboid is: 2100 cm³
 ```
 
 ## Technologies Used
+
 ---
-| Technology | Description                                            | Link                                       |
-| :--------- | :----------------------------------------------------- | :----------------------------------------- |
-| **C++**    | The core programming language used for all utility programs.           | [C++ Language](https://isocpp.org/)                 |
-| **g++**    | The GNU C++ Compiler, a widely used compiler for Linux and Windows systems.    | [GNU Compiler Collection (GCC)](https://gcc.gnu.org/)                |
-| **clang**  | The LLVM C++ Compiler, commonly used as the default compiler on macOS and Termux.        | [LLVM Clang](https://clang.llvm.org/)      |
+
+| Technology | Description                                                                       | Link                                                  |
+| :--------- | :-------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| **C++**    | The core programming language used for all utility programs.                      | [C++ Language](https://isocpp.org/)                   |
+| **g++**    | The GNU C++ Compiler, a widely used compiler for Linux and Windows systems.       | [GNU Compiler Collection (GCC)](https://gcc.gnu.org/) |
+| **clang**  | The LLVM C++ Compiler, commonly used as the default compiler on macOS and Termux. | [LLVM Clang](https://clang.llvm.org/)                 |
 
 ## Contributing
 
@@ -166,7 +168,6 @@ Please ensure your code adheres to standard C++ practices and is well-commented 
 
 ## Author
 
-*   **Adeloye Adetayo** - _Lead Developer_
-    *   LinkedIn: [Adeloye Adetayo](https://www.linkedin.com/in/adeloye-adetayo-273723253)
-    *   Twitter: [@Spectra010s](https://x.com/spectra010s)
-
+- **Adeloye Adetayo** - _Lead Developer_
+  - LinkedIn: [Adeloye Adetayo](https://www.linkedin.com/in/adeloye-adetayo-273723253)
+  - Twitter: [@Spectra010s](https://x.com/spectra010s)

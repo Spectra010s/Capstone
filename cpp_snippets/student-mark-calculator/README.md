@@ -87,13 +87,14 @@ g++ percentage.cpp -o percentage_calc
 
 _(This command compiles `percentage.cpp` and creates an executable file named `percentage_calc`, you can choose any name you like.)_
 
---- 
+---
 
 ## Usage
 
 After successful compilation, run the executable directly from your terminal.
 
 1.  **Run the Program**:
+
     ```bash
     ./percentage_calc
     ```
@@ -101,23 +102,24 @@ After successful compilation, run the executable directly from your terminal.
 2.  **Follow the Prompts**:
     The program will prompt you to enter the student's name, roll number, and marks for six subjects.
 
-    **Example Interaction**:
-    ```
---- Student Percentage Score Calculator ---
-Enter student's name: Spectra010s
-Enter student's roll number: 001
-Enter marks for subjects 1: 78
-Enter marks for subjects 2: 66
-Enter marks for subjects 3: 82
-Enter marks for subjects 4: 74
-Enter marks for subjects 5: 90
-Enter marks for subjects 6: 80
+        **Example Interaction**:
+        ```
 
+    --- Student Percentage Score Calculator ---
+    Enter student's name: Spectra010s
+    Enter student's roll number: 001
+    Enter marks for subjects 1: 78
+    Enter marks for subjects 2: 66
+    Enter marks for subjects 3: 82
+    Enter marks for subjects 4: 74
+    Enter marks for subjects 5: 90
+    Enter marks for subjects 6: 80
 
 Name: Spectra010s
 Roll Number: 001
 Percentage Score Secured:: 78.3333%
-```
+
+````
 
 ---
 
@@ -155,7 +157,7 @@ int main() {
 
     return 0;
 }
-```
+````
 
 ---
 
